@@ -1,3 +1,4 @@
+//moves motor to a specific angle based on distance
 #include <Servo.h>;
 Servo myservo;
 Servo MYservo; 
