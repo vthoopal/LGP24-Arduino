@@ -1,3 +1,4 @@
+//Shows different colours based on distance
 int r = 2;
 int w = 3;
 int b = 4;
@@ -61,16 +62,7 @@ void loop() {
     digitalWrite(colour[5], LOW);
     digitalWrite(colour[a], HIGH);
     state[a]=1;}
-     else   if (colour[a] == y){int dist(int trigPin, int echoPin){
-      digitalWrite(trigPin, LOW);
-    delayMicroseconds(2); // wait for 2 ms to avoid
-…        = duration * 0.0344 / 2; // Expression to calculate
-                                 // distance using time
-        delay(50);
-
-
-    return distance;
-}//distance calculation
+     else   if (colour[a] == y){
     digitalWrite(colour[1], LOW);
     digitalWrite(colour[3], LOW);
     digitalWrite(colour[4], LOW);
