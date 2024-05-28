@@ -1,4 +1,8 @@
-#include "DHT11.h"
+/*this code adjusts the brightness and number of leds based on the light falling on the ir sensor
+it also has a dht11 sensor to measure and print temperature and humidity
+*/
+
+#include "DHT11.h"igh
 DHT11 dht11(2);
 int light;
 int r=3 ;
